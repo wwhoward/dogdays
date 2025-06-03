@@ -27,6 +27,19 @@
 		<link rel="icon" type="image/x-icon" href="favicon.ico">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.responsive-banner {
+				max-width: 100%;
+				width: auto;
+				max-height: 300px;
+				object-fit: contain;
+			}
+			@media screen and (max-width: 736px) {
+				.responsive-banner {
+					max-height: 200px;
+				}
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -60,7 +73,7 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<div class="logo"><img src="dogart/dogbanner.png" alt="Dog Days Banner" style="max-width: 100%; height: auto;" /></div>
+							<div class="logo"><img src="dogart/dogbanner.png" alt="Dog Days Banner" class="responsive-banner" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" /></div>
 							<h2>Dog Days of Summer 2025</h2>
 							<p>August 16, 2025 - Salisbury Equestrian Park, Parker, Colorado - Brought to you by the Good Dog Academy</p>
 							<p><a href="https://allevents.in/parker/2025-dog-days-of-summer-tickets/80001110666254">Tickets on sale now! Early Bird registration ends July 1st!</a></p>
